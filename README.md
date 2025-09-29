@@ -7,7 +7,7 @@ The task was to generate photorealistic images of three locations, each from thr
 
 ## 📂 Repository Structure
 
-''' eccentric-assignment/
+``` eccentric-assignment/
 │
 ├── notebook.ipynb # Jupyter/Colab notebook with full code
 ├── README.md # Project documentation
@@ -24,4 +24,4 @@ The task was to generate photorealistic images of three locations, each from thr
 │ │ ├── Nagpur_Rainforest_view_1.png
 │ │ ├── Nagpur_Rainforest_view_2.png
 │ │ └── Nagpur_Rainforest_view_3.png
-│ └── metadata.json # Seeds, prompts, reproducibility metadata '''
+│ └── metadata.json # Seeds, prompts, reproducibility metadata ```
