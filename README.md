@@ -91,13 +91,15 @@ Along with a `metadata.json` file that contains the exact prompts, seeds, and pa
 1. Open `notebook.ipynb` in Colab or Jupyter.  
 2. Install dependencies:
    ```bash
-   pip install diffusers transformers accelerate huggingface_hub safetensors
+   !pip install -q torch torchvision --index-url https://download.pytorch.org/whl/cu121
+   !pip install -q diffusers transformers accelerate safetensors controlnet_aux xformers
 
 3. Authenticate with Hugging Face:
 
 ```
 from huggingface_hub import login
-login(token="your_token_here")
+from getpass import getpass
+login(token=getpass("Paste your Hugging Face token: "))
 ```
 4. Run all cells → outputs saved in eccentric_outputs/.
 
