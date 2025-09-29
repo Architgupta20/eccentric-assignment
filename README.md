@@ -104,11 +104,13 @@ eccentric-assignment/
 from huggingface_hub import login
 login(token="your_token_here")
 ```
-4. un all cells → outputs saved in eccentric_outputs/.
+4. Run all cells → outputs saved in eccentric_outputs/.
 
 🔒 Reproducibility
 
 All random seeds fixed.
+
 Prompts and parameters logged in metadata.json.
+
 Re-running with the same seed regenerates identical images.
 
