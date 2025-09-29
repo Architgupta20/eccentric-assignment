@@ -7,7 +7,8 @@ The task was to generate photorealistic images of three locations, each from thr
 
 ## 📂 Repository Structure
 
-``` eccentric-assignment/
+```
+eccentric-assignment/
 │
 ├── notebook.ipynb # Jupyter/Colab notebook with full code
 ├── README.md # Project documentation
@@ -24,8 +25,8 @@ The task was to generate photorealistic images of three locations, each from thr
 │ │ ├── Nagpur_Rainforest_view_1.png
 │ │ ├── Nagpur_Rainforest_view_2.png
 │ │ └── Nagpur_Rainforest_view_3.png
-│ └── metadata.json # Seeds, prompts, reproducibility metadata 
-
+│ └── metadata.json # Seeds, prompts, reproducibility metadata
+```
 
 ---
 
@@ -96,4 +97,18 @@ The task was to generate photorealistic images of three locations, each from thr
 2. Install dependencies:
    ```bash
    pip install diffusers transformers accelerate huggingface_hub safetensors
+
+3. Authenticate with Hugging Face:
+
+```
+from huggingface_hub import login
+login(token="your_token_here")
+```
+4. un all cells → outputs saved in eccentric_outputs/.
+
+🔒 Reproducibility
+
+All random seeds fixed.
+Prompts and parameters logged in metadata.json.
+Re-running with the same seed regenerates identical images.
 
