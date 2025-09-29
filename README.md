@@ -74,20 +74,15 @@ eccentric-assignment/
 
 ## 📸 Sample Outputs
 
-### Bandra Worli Sea Link
-![Sea Link View 1](eccentric_outputs/Bandra_Worli_Sea_Link/Bandra_Worli_Sea_Link_view_1.png)  
-![Sea Link View 2](eccentric_outputs/Bandra_Worli_Sea_Link/Bandra_Worli_Sea_Link_view_2.png)  
-![Sea Link View 3](eccentric_outputs/Bandra_Worli_Sea_Link/Bandra_Worli_Sea_Link_view_3.png)  
+The generated images are included in [eccentric_outputs.zip](eccentric_outputs.zip).  
+Unzip the file to view all **9 outputs** (3 locations × 3 angles each).  
 
-### Hawa Mahal
-![Hawa Mahal View 1](eccentric_outputs/Hawa_Mahal_Jaipur/Hawa_Mahal_Jaipur_view_1.png)  
-![Hawa Mahal View 2](eccentric_outputs/Hawa_Mahal_Jaipur/Hawa_Mahal_Jaipur_view_2.png)  
-![Hawa Mahal View 3](eccentric_outputs/Hawa_Mahal_Jaipur/Hawa_Mahal_Jaipur_view_3.png)  
+Each location has its own folder inside the zip:  
+- `Bandra_Worli_Sea_Link/`  
+- `Hawa_Mahal_Jaipur/`  
+- `Nagpur_Rainforest/`  
 
-### Nagpur Rainforest
-![Rainforest View 1](eccentric_outputs/Nagpur_Rainforest/Nagpur_Rainforest_view_1.png)  
-![Rainforest View 2](eccentric_outputs/Nagpur_Rainforest/Nagpur_Rainforest_view_2.png)  
-![Rainforest View 3](eccentric_outputs/Nagpur_Rainforest/Nagpur_Rainforest_view_3.png)  
+Along with a `metadata.json` file that contains the exact prompts, seeds, and parameters for reproducibility.
 
 ---
 
